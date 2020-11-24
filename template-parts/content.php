@@ -16,7 +16,6 @@ global $STOCK;
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<p class="mt-3 mb-5 text-muted">TMF Company Profile: (<a href="<?php echo site_url('/company/'.$STOCK->longSymbol.'/'); ?>"><?= $STOCK->longSymbol; ?></a>)</p>
 
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
